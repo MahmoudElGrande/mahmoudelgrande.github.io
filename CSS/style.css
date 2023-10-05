@@ -1,0 +1,185 @@
+.mainheader{
+    background-color:black ;
+    color:magenta ;
+    font-size:20px;
+    border:5px solid magenta;
+    margin:20px;
+    padding:20px;
+    align-content:center;
+    animation: neon 2s infinite;
+    box-shadow:0 0 10px 5px red;
+    padding-left:280px;
+    padding-bottom:auto;
+    
+}
+.header{
+    background-color:black ;
+    color:magenta ;
+    font-size:20px;
+    border:5px solid magenta;
+    margin:20px;
+    padding:20px;
+    align-content:center;
+    animation: neon 2s infinite;
+    box-shadow:0 0 10px 5px red;
+   
+    
+}
+@keyframes neon{
+    from {border:solid magenta;}
+    to {border: solid red;}
+
+}
+
+.imgleft{
+display:inline;;
+float:left;
+
+}
+.imgright{
+display:inline;;
+float:right;
+
+}
+.lif{
+display:inline;
+}
+aside{
+   
+   float:left;
+}
+.divinline{
+   display:inline-block;
+   background-color:black ;
+    color:magenta ;
+    font-size:20px;
+    border:5px solid magenta;
+    margin:20px;
+    animation: neon 2s infinite;
+    
+}
+.right{
+    background-color:black ;
+    color:magenta ;
+    font-size:20px;
+    border:5px solid magenta;
+    margin:20px;
+    padding:20px;
+    align-content:center;
+    float:right;
+    animation: neon 2s infinite;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+.left{
+    background-color:black ;
+    color:magenta ;
+    font-size:20px;
+    border:5px solid magenta;
+    margin:20px;
+    padding:20px;
+    align-content:center;
+    float:left;
+    animation: neon 2s infinite;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+figcaption{
+   text-align:center;
+   font-family:"Comic Sans MS";
+}
+i{
+ font-family:"Comic Sans MS";
+}
+::-webkit-scrollbar {
+width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px black; 
+border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: magenta; 
+border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: purple; 
+}
+body{
+ cursor: grab;
+}
+a{
+ color:unset;
+
+}
+.img2{
+ border:1px solid magenta;
+ animation:neon 2s infinite;
+ margin: -2px;
+ 
+}
+.video{
+    background-color:black ;
+    color:magenta ;
+    font-size:20px;
+    border:5px solid magenta;
+    margin:2px;
+    padding:2px;
+    align-content:center;
+    animation: neon 2s infinite;
+    
+}
+hr{
+  border:red;
+  animation:neon 2s infinite;
+
+}
+.comment{
+    background-color:black ;
+    color:magenta ;
+    font-size:20px;
+    border:5px solid magenta;
+    margin:2px;
+    padding:2px;
+    animation: neon 2s infinite;
+    margin-left:20px;
+    margin-right:10px;
+    display:inline-block;
+}
+.fotos{
+    display:inline;
+    background-color:black ;
+     color:magenta ;
+     border:5px solid magenta;
+     animation: neon 2s infinite;
+     border-image:fill;
+     
+ }
+
+.indeximg{
+    text-align:center;
+    font-family:Comic Sans MS;
+
+}
+.itemsContainer {
+    background:black; 
+    display:inline-block;
+    position:relative
+}
+.itemsContainer:hover .play{display:inline-block}
+.play{
+  position : absolute;
+    display:none;
+    top:70px; 
+    width:40px;
+    margin:0 auto; left:0px;
+    right:15px;
+    z-index:100
+
+} 
